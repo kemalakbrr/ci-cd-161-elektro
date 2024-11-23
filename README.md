@@ -45,16 +45,16 @@ To set up and run this project locally:
 ## GitHub Actions Workflows
 
 CI Workflow (.github/workflows/ci.yml)
-#Triggers: Runs on every push or pull_request to the repository.
-#Steps:
+Triggers: Runs on every push or pull_request to the repository.
+Steps:
 1. Checkout the code.
 2. Set up Node.js.
 3. Install dependencies.
 4. Run the tests.
 
 CD Workflow (.github/workflows/cd.yml)
-#Triggers: Runs on successful completion of the CI workflow (or manual trigger).
-#Steps:
+Triggers: Runs on successful completion of the CI workflow (or manual trigger).
+Steps:
 1. Build the application.
 2. Deploy to the specified environment.
 
